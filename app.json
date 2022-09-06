@@ -1,12 +1,12 @@
 {
-	"name": "inrl-bot-md",
+	"name": "banana 🍌-bot-md",
 	"description": " Whatsapp bot.",
 	"keywords": [
 		"whatsapp",
 		"bot",
                 "multi-divice"
 	],
-	"repository": "https://github.com/inrl-official/inrl-bot-md",
+	"repository": "https://github.com/ayoser2/Banana-md",
 	"stack": "container",
 	"env": {
        "SESSION_ID": {
@@ -31,7 +31,7 @@
         "SUDO": {
             "description": "some cmds only possble to use bot number && sudo, so you need to sudo use this",
             "required": false,
-            "value":"917593919575"
+            "value":"94772496127"
         },
         "HEROKU_APP_NAME": {
             "description": "Exact name which you gave at the top",
