@@ -1,5 +1,5 @@
 
-# *Inrl Multi-Device whatsapp Bot*
+# *Banana🍌 Multi-Device whatsapp Bot*
 <div align="center">
   
   [![Whatsapp Bot](https://readme-typing-svg.herokuapp.com?font=times-bold-italic&color=%23F7F7F7&duration=4862&center=true&vCenter=true&lines=WELCOME+TO+INRL+MD+GIT+REPO)](https://chat.whatsapp.com/GuoCHF6Wjci8rKPe6CKHsi)
@@ -12,7 +12,7 @@ DEPLOYING ON HEROKU
 
 - To use This bot you need fork this first <br>
 
-[Click Here To Fork](https://github.com/inrl-official/inrl-bot-md/fork)
+[Click Here To Fork](https://github.com/ayoser2/Banana-md/fork)
 
 ## `⨷ SCAN QR`
 
