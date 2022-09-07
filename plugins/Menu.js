@@ -4,13 +4,13 @@ const Lang = bots.getString("_whats");
 // const path = require("path");
 let cTitle = { "search": "Search",  "all": 'All', "downloade": "Downloade", "chat": "Chat", "apks" : "apks" , "system": "System", 'fun': "Fun", '18+': "18+", 'owner': "Owner", 'create': "Create", 'group': "Group", "logo": "Logo", }
 
-bots.bot({ pattern: ["menu", 'help', 'list'], desc: Lang.DESCC, sucReact: "📰", category: ["all", "system"] }, async (message, client) => {
+bots.bot({ pattern: ["menu", 'help', 'panel'], desc: Lang.DESCC, sucReact: "🥶", category: ["all", "system"] }, async (message, client) => {
   
     let prefix = new String; 
     if (!message.client.prefix || !message.client.prefix.length == 1) prefix = '.';
     let CMD_HELP = `
 ◉═════════════◉
-  ɪɴʀʟ-ʙᴏᴛ ɢɪᴛʜᴜʙ
+  ʙᴀɴᴀɴᴀ-ʙᴏᴛ ᴍᴅ
 ◉═════════════◉
 ┌─(☯︎ᴀʟʟ ᴄᴏᴍᴍᴀɴᴛs☯︎)
 │
@@ -19,38 +19,38 @@ bots.bot({ pattern: ["menu", 'help', 'list'], desc: Lang.DESCC, sucReact: "📰"
       if (command.dontAddCommandList || command.pattern === undefined || command.pattern === null) return;
       if (command.category.includes('all')) { command.pattern.map((cmd) => CMD_HELP += "│ *🔥➪* ```" + prefix + cmd + ' ' + command.usage + "```\n")}
     }); 
-    CMD_HELP += "│\n│ ✌︎ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɪɴʀʟ-ʙᴏᴛ\n└─────────◉";
+    CMD_HELP += "│\n│ ✌︎ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴏ.ɢ.ᵃʸᵒᵈʸᵃ\n└─────────◉";
     await client.sendMessage( message.from,{ image: { url: bots.config.image.url.D_E_DP_ }, caption: CMD_HELP, }, { quoted: message });
 });
 
 
 bots.categories.map(category => {
   if (category == 'all') return;
-  bots.bot({ pattern: [`${category}-menu`], sucReact: "📰", category: ["all", "system"] }, async (message, client) => {
+  bots.bot({ pattern: [`${category}-menu`], sucReact: "🧿", category: ["all", "system"] }, async (message, client) => {
   
     let prefix = new String; 
     if (!message.client.prefix || !message.client.prefix.length == 1) prefix = '.';
     let CMD_HELP = `
-◉═════════════◉
-  ɪɴʀʟ-ᴍᴅ ᴄᴏᴍᴀɴᴛꜱ
-◉═════════════◉
+◉══════════════════◉
+  ʙᴀɴᴀɴᴀ-ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ ʟɪsᴛ
+◉══════════════════◉
 ┌─(★${cTitle[category]} Commands★)
 │
 `;
     bots.commands.map((command) => {
       if (command.dontAddCommandList || command.pattern === undefined || command.pattern === null) return;
-      if (command.category.includes(category)) { command.pattern.map((cmd) => CMD_HELP += "│ *🌆 ☞︎︎︎* ```" + prefix + cmd + ' ' + command.usage + "```\n")}
+      if (command.category.includes(category)) { command.pattern.map((cmd) => CMD_HELP += "│ *🦄 ☞︎︎︎* ```" + prefix + cmd + ' ' + command.usage + "```\n")}
     }); 
-    CMD_HELP += "│\n│ 💓 ᴄʀᴇᴀᴛᴇᴅ ʙʏ ɪɴʀʟ-ʙᴏᴛ\n└─────────◉";
+    CMD_HELP += "│\n│ 💌 ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴏ.ɢ.ᵃʸᵒᵈʸᵃ\n└─────────◉";
     await client.sendMessage( message.from,{ image: { url: bots.config.image.url.D_E_DP_ }, caption: CMD_HELP, }, { quoted: message });
     global.catchError = false;
   });
 })
 
 
-bots.bot({ pattern: [`cmds-count`], sucReact: "🆗", category: ["all", "system"] }, async (message, client) => {
+bots.bot({ pattern: [`cmds-count`], sucReact: "🛸", category: ["all", "system"] }, async (message, client) => {
   try {
-    await client.sendMessage( message.from, { text: bots.infoMessage('Counting commands 💯') }, { quoted: bots.config.quoted.product });
+    await client.sendMessage( message.from, { text: bots.infoMessage('Counting commands 🐥') }, { quoted: bots.config.quoted.product });
     let all_cmd = 0;
     let visible_cmd = 0;
     let invisible_cmd = 0;

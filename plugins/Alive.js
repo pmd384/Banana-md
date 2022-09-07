@@ -11,7 +11,7 @@ bots.bot(
   {
     pattern: ["alive", "bot", "system_status"],
     desc: "to know this bot is alive",
-    sucReact: "🥰",
+    sucReact: ["👻", "🍌" ,"🦄"],
     category: ["system", "all"],
   },
   async (message, client) => {
@@ -22,7 +22,7 @@ bots.bot(
       const Content = `┌─❖
 │「 𝚑𝚒 𝚋𝚛𝚘/𝚜𝚒𝚜 」
 └┬❖ 「 ${message.client.pushName} 」
-┌┤✑  ɪᴀᴍ ᴀʟɪᴠᴇ ʙʀᴏ
+┌┤✑  Ꮖ ᗩᗰ ⨀ᑎしᏆᑎᗴ ᑎᝪᗯ
 │└───────────────┈ ⳹
 │ 「 BOT INFO 」
 │ ✪ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
@@ -39,9 +39,9 @@ bots.bot(
  └───────────────┈ ⳹`;
 
       const buttons = [
-        { buttonId: ".urls", buttonText: { displayText: "ᴜʀʟꜱ" }, type: 1, },
-        { buttonId: ".creater", buttonText: { displayText: "ᴄʀᴇᴀᴛᴇʀ" }, type: 1, },
-        { buttonId: ".menu", buttonText: { displayText: "ᴍᴇɴᴜ" }, type: 1, },
+        { buttonId: ".urls", buttonText: { displayText: "╰𝗌𝖼𝗋𝗂𝗉𝗍╯" }, type: 1, },
+        { buttonId: ".creater", buttonText: { displayText: "╟cʀᴇᴀᴛor╢" }, type: 1, },
+        { buttonId: ".menu", buttonText: { displayText: "╘mᴇɴu╛" }, type: 1, },
       ]
 
 
