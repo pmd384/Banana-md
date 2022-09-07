@@ -1,12 +1,12 @@
 {
-	"name": "banana 🍌-bot-md",
+	"name": "inrl-bot-md",
 	"description": " Whatsapp bot.",
 	"keywords": [
 		"whatsapp",
 		"bot",
                 "multi-divice"
 	],
-	"repository": "https://github.com/ayoser2/Banana-md",
+	"repository": "https://github.com/inrl-official/inrl-bot-md",
 	"stack": "container",
 	"env": {
        "SESSION_ID": {

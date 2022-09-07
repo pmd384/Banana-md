@@ -1,5 +1,5 @@
 {
-	"name": "inrl-bot-md",
+	"name": "Banana-md",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -9,14 +9,14 @@
         },
         "repository": {
         "type": "git",
-        "url": "git+https://github.com/inrl-official/inrl-bot-md.git"
+        "url": "git+https://github.com/ayoser2/Banana-md.git"
         },
 	"author": "",
 	"license": "GPL-3.0-or-later",
         "bugs": {
-        "url": "https://github.com/inrl-official/inrl-bot-md/issues"
+        "url": "https://github.com/inrl-official/inrl-bot/issues"
 	},
-        "homepage": "https://github.com/inrl-official/inrl-bot-md#readme",
+        "homepage": "https://github.com/ayoser2/Banana-md#readme",
         "dependencies": {
     "@adiwajshing/baileys": "4.3.0",
     "@adiwajshing/keyed-db": "^0.2.4",

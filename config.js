@@ -12,8 +12,8 @@ module.exports = {
     U_STATUS: process.env.U_STATUS || 'true',
     MENTION: process.env.MENTION || 'on',
     WORKTYPE: process.env.WORKTYPE || 'public',
-    OWNER : ["917025099154"],
-    BRANCH: 'master',
+    OWNER : ["94772496127"],
+    BRANCH: 'Banana-🍌-main',
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
@@ -21,9 +21,9 @@ module.exports = {
         APP_NAME: process.env.HEROKU_APP_NAME || ''
     },
     profile: {
-    ownerName: "ɪɴʀʟ-ʙᴏᴛ", 
-    ownerNumb: "917025099154", 
-    botName: "ɪɴʀʟ-ʙᴏᴛ-ᴍᴅ", 
+    ownerName: "ᗩᎩ⨀ᗞᎩᗩ ᐯᏆᑕᕼᗩᏦᔑᕼᗩᑎᗩ", 
+    ownerNumb: "94702979973", 
+    botName: "ʙᴀɴᴀɴᴀ ᴍᴅ", 
   },
     reply: {
     notFound: "This Command not created. it was creating",
@@ -61,16 +61,16 @@ module.exports = {
     read: false, // Boolean | ===== It not created now ======
   },
     DATABASE_URL: DATABASE_URL,
-    FOOTER : process.env.FOOTER || "ɪɴʀʟ-ᴍᴅ",
-    PACKNAME : process.env.PACKNAME || "ɪɴʀʟ-ʙᴏᴛ",
-    GIT : process.env.GIT || "https://github.com/inrl-official/inrl-bot-md",
-    WEB : process.env.WEB || "https://frendpage.vercel.app/",
-    YT : process.env.YT || "https://www.youtube.com/channel/null",
-    CAPTION : process.env.CAPTION || "*Cerated by inrlTeam*",
+    FOOTER : process.env.FOOTER || "🇧 🇦 🇳 🇦 🇳 🇦 🇳 🇦 × ᴀʏᴏᴅʏᴀ",
+    PACKNAME : process.env.PACKNAME || "🇧 🇦 🇳 🇦 🇳 🇦ᵐᵈ",
+    GIT : process.env.GIT || "https://github.com/ayoser2l/Banana-md",
+    WEB : process.env.WEB || "https://github.com/ayoser2/Banana-md",
+    YT : process.env.YT || "https://www.youtube.com/channel/AyOdYa",
+    CAPTION : process.env.CAPTION || "*Cerated by O.G.Ayodya*",
     DATABASE: DATABASE_URL === './bot.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
     NO_ONLINE: process.env.NO_ONLINE === undefined ? true : convertToBool(process.env.NO_ONLINE),
-    SUDO: process.env.SUDO || '917593919575',
-    WAGRP : process.env.WAGRP || 'https://chat.whatsapp.com/GuoCHF6Wjci8rKPe6CKHsi',
+    SUDO: process.env.SUDO || '94772496127',
+    WAGRP : process.env.WAGRP || 'https://chat.whatsapp.com/still making',
     DEBUG: DEBUG,
     ACR_A: "ff489a0160188cf5f0750eaf486eee74",
     ACR_S: "ytu3AdkCu7fkRVuENhXxs9jsOW4YJtDXimAWMpJp"

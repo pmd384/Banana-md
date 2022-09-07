@@ -1,4 +1,4 @@
-/* Copyright (C) 2020 INrlTeam.
+/* Copyright (C) 2022 ayodya.
 
 Licensed under the  GPL-3.0 License;
 
