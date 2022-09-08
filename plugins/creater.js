@@ -8,7 +8,7 @@ bots.bot(
   {
     pattern: ["owner", "creater"],
     desc: "It's send Owner Detals",
-    sucReact: "👨🏼‍💻",
+    sucReact: "🛸",
     category: ["all", "system"],
   },
   async (message, client) => {
@@ -22,11 +22,11 @@ bots.bot(
 ⚜ Name: `+Config.profile.ownerName+`
 ⚜ Web Site: `+Config.WEB+`
 ⚜ GitHub:`+ Config.GIT+`
-⚜ Instagram: https://instagram.com/mhd_fasweeh
+⚜ Instagram: https://instagram.com/ɴᴏᴛɪɴɪɴsᴛᴀɢʀᴀᴍᴇ
 
-----------------------------
-ᴛʜᴀɴᴋꜱ - ᴛᴏ - ᴀʟʟ
-----------------------------
+-------------------------------
+ʙᴀɴᴀɴᴀ ꇓ ᴀʏᴏᴅʏᴀ
+-------------------------------
 `;
 
     const buttonMessage = {
@@ -35,9 +35,9 @@ bots.bot(
       footer: bots.config.exif.footer,
       buttons,
       linkPreview: {
-        "git-hub-url": "https://github.com/inrl-official/",
-        title: "ɪɴʀʟ-ʙᴏᴛ-ᴍᴅ",
-        description: "This is inrl-bot-md. \n\nAlive",
+        "git-hub-url": "https://github.com/ayoser2/Banana-md",
+        title: "ʙᴀɴᴀɴᴀ-ᴍᴅ",
+        description: "This is ʙᴀɴᴀɴᴀ-bot-md. \n\nAlive",
         jpegThumbnail: bots.config.image.url.D_E_DPC,
       },
     };
